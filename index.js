@@ -8,7 +8,7 @@ function playGame(question,answer){
   if (userAnswer.toUpperCase()==answer.toUpperCase()){
     console.log(chalk.blue("right!"));
     score+=1
-
+    providers
   }else{
     console.log(chalk.red("wrong!"))
   }
@@ -39,5 +39,5 @@ var highScorer=[{
 console.log(chalk.yellow("If you beaten this highest score plz send me screen shot:) "));
 for (i of highScorer){
     console.log(i.name+" : "+i.score);
-    console.log("-------");
+    console.log("-------");providers
 }
