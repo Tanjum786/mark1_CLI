@@ -36,7 +36,7 @@ var highScorer=[{
     name:"muskan",
     score:2
 }]
-console.log(chalk.yellow("If you beated this highest score plz send me screen shot:) "));
+console.log(chalk.yellow("If you beaten this highest score plz send me screen shot:) "));
 for (i of highScorer){
     console.log(i.name+" : "+i.score);
     console.log("-------");
