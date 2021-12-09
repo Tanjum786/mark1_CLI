@@ -2,7 +2,7 @@ var input=require("readline-sync");
 var chalk=require("chalk")
 var score=0;
 var userName=input.question("what's your name: ");
-console.log(chalk.blue("welcome! "+userName+"  DO YOU KNOW Tanjum"));
+console.log(chalk.blue("welcome! "+userName+"  DO YOU KNOW Me"));
 function playGame(question,answer){
   var userAnswer=input.question(chalk.green(question));
   if (userAnswer.toUpperCase()==answer.toUpperCase()){
@@ -19,8 +19,20 @@ var questions=[{
   answer:"skyblue"},{
   question:"what i like most tea or coffee?",
   answer:"tea"},{
-  question:"My birthplace is? ",
-  answer:"mahalingpur"
+  question:"what is my hobbie? ",
+  answer:"Collecting shayari"
+
+  },{
+    question:"which choclate i like's more",
+    answer:"dairy milk"
+
+  },{
+    question:"Do you Know my Birthdate? ",
+    answer:"16/12"
+
+  },{
+    question:"which is my fvrt Ice-cream flavour? ",
+    answer:"Choclate"
 
   }
 ]
