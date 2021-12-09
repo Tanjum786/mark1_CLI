@@ -32,7 +32,7 @@ var questions=[{
 
   },{
     question:"which is my fvrt Ice-cream flavour? ",
-    answer:"Choclate"
+    answer:"Choclate flavour"
 
   }
 ]
@@ -41,11 +41,11 @@ for(i in questions){
 }
 console.log(chalk.yellow("yeahh :) you scored! ",score))
 var highScorer=[{
-    name:"tanjum",
-    score:3},
+    name:"Tanjum",
+    score:5},
     {
-    name:"muskan",
-    score:2
+    name:"Muskan",
+    score:4
 }]
 console.log(chalk.yellow("If you beaten this highest score plz send me screen shot:) "));
 for (i of highScorer){
