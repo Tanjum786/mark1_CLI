@@ -23,7 +23,7 @@ var questions=[{
   answer:"Collecting shayari"
 
   },{
-    question:"which choclate i like's more",
+    question:"which chocolate i like's more",
     answer:"dairy milk"
 
   },{
@@ -32,7 +32,7 @@ var questions=[{
 
   },{
     question:"which is my fvrt Ice-cream flavour? ",
-    answer:"Choclate flavour"
+    answer:"Chocolate flavour"
 
   }
 ]
