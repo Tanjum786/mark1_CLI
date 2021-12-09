@@ -23,12 +23,12 @@ var questions=[{
   answer:"Collecting shayari"
 
   },{
-    question:"which chocolate i like's more",
+    question:"which chocolate i like's more?",
     answer:"dairy milk"
 
   },{
-    question:"Do you Know my Birthdate? ",
-    answer:"16/12"
+    question:"  Which is my favorite movie? ",
+    answer:"Jab We met"
 
   },{
     question:"which is my fvrt Ice-cream flavour? ",
